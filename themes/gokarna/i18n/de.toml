@@ -1,0 +1,14 @@
+[Recent]
+    other = 'Letzte'
+[error404]
+    other = 'Diese Seite existiert (noch) nicht, gehen Sie zu zurück auf'
+[home]
+    other = 'Los'
+[nothing]
+    other = 'Hier gibt es noch nichts zu sehen'
+[previous]
+    other = 'Vorheriger Eintrag'
+[next]
+    other = 'Nächster Eintrag'
+[tags]
+    other = 'Tags'

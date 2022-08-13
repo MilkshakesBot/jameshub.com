@@ -1,0 +1,19 @@
+<footer class="footer">
+  <div class="copyright">
+    <span>Copyright James Hub - {{ now.Year }}</span>
+    <span
+      ><a
+        href="https://www.youtube.com/watch?v=cd4-UnU8lWY&t=34s"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Sell My Personal Information?</a
+      ></span
+    >
+  </div>
+
+  <!-- Option for user to inject custom html -->
+  {{ if .Site.Params.CustomFooterHTML }} {{ .Site.Params.CustomFooterHTML |
+  safeHTML }} {{ end }} {{ if .Site.Params.footer }}
+  <span>&copy; {{ now.Year }} {{ .Site.Params.Footer}}</span>
+  {{ end }}
+</footer>
