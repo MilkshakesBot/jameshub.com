@@ -1,5 +1,5 @@
 ---
-title: "Why the "I've got nothing to hide" is one of the worst arguments to have."
+title: "Why the 'I've got nothing to hide' is one of the worst arguments to have."
 slug: "ive-got-nothing-to-hide"
 description: "There is a reason it’s called personal data... you wouldn't give out all your information to some random person on the street so who should you do that online?"
 keywords: ["personal data", "data", "security", "protection"]
