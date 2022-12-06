@@ -1,7 +1,7 @@
 ---
 title: "Why the 'I've got nothing to hide' is one of the worst arguments to have."
 slug: "ive-got-nothing-to-hide"
-description: "There is a reason it’s called personal data... you wouldn't give out all your information to some random person on the street so who should you do that online?"
+description: "Personal data is called that for a reason: it's personal. Just like you wouldn't give out all your information to a stranger on the street, you shouldn't do that online either. Protecting your personal data is important, both online and in the real world."
 keywords: ["personal data", "data", "security", "protection"]
 tags: ["security", "data", "personal data"]
 author: "James"
