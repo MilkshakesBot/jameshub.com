@@ -1,18 +1,18 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
-paginate = 4
+paginate = 10
 
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
+  contentTypeName = "content/posts"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 4
+  showMenuItems = 5
 
   # show selector to switch language
   showLanguageSelector = false
@@ -73,10 +73,10 @@ paginate = 4
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Hello There"
-    subtitle = "General Kenobi"
-    owner = "James Hub"
-    keywords = ""
+    title = "James' Blog"
+    subtitle = "A blog about tech, life, and everything in between."
+    owner = "James H"
+    keywords = "blog, tech, life, tech blog, life blog, james, james h, james h blog, james h tech blog, james h life blog"
     copyright = ""
     menuMore = "Show more"
     readMore = "Read more"
@@ -85,6 +85,8 @@ paginate = 4
     olderPosts = "Older posts"
     missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
+    missingBackButtonLink = "/"
+
 
     [languages.en.params.logo]
       logoText = "cd home/"
