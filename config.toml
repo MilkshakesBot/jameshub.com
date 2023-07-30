@@ -9,7 +9,7 @@ paginate = 10
   contentTypeName = "posts"
 
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "orange"
+  themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
@@ -62,19 +62,12 @@ paginate = 10
   filename = "sitemap.xml"
   priority = 0.5
 
-[params.twitter]
-  # set Twitter handles for Twitter cards
-  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-  # do not include @
-  creator = ""
-  site = ""
-
 
 [languages]
   [languages.en]
     languageName = "English"
-    title = "James' Blog"
-    subtitle = "A blog about tech, life, and everything in between."
+    title = "Just Another Blog"
+    subtitle = "Where I can post about stuff thats on my mind or that I find interesting"
     owner = "James H"
     keywords = "blog, tech, life, tech blog, life blog, james, james h, james h blog, james h tech blog, james h life blog"
     copyright = ""
@@ -113,3 +106,8 @@ paginate = 10
         name = "Contact"
         url = "/contact"
         weight = "-97"
+      [[languages.en.menu.main]]
+        identifier = "CV"
+        name = "CV"
+        url = "/cv"
+        weight = "-96"
