@@ -106,8 +106,3 @@ paginate = 10
         name = "Contact"
         url = "/contact"
         weight = "-97"
-      [[languages.en.menu.main]]
-        identifier = "CV"
-        name = "CV"
-        url = "/cv"
-        weight = "-96"
