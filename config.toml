@@ -1,6 +1,10 @@
-languageCode = "en-us"
+baseURL = "https://jameshub.com/"
 theme = "gokarna"
 title = "whoami.exe"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableRobotsTXT = true
 
 [params]
   description = "Digital Forensics Student, Intelligence Analyst, currently @ getDarkTower"
