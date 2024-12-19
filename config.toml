@@ -16,30 +16,36 @@ enableRobotsTXT = true
 
   [[menu.main]]
     identifier = "github"
-    pre = "<span data-feather='github'></span>"
+    pre = "<img class='svg-inject' src='svg/icons/github.svg' />"
     url = "https://github.com/milkshakesbot"
     weight = 1
 
   [[menu.main]]
-    identifier = "twitter"
-    pre = "<span data-feather='twitter'></span>"
-    url = "https://twitter.com/milkshakesbot"
+    identifier = "bluesky"
+    pre = "<img class='svg-inject' src='svg/icons/bluesky.svg' />"
+    url = "https://bsky.app/profile/milkshakes.bot"
     weight = 2
 
   [[menu.main]]
-    identifier = "linkedin"
-    pre = "<span data-feather='linkedin'></span>"
-    url = "https://www.linkedin.com/in/hubnerj/t"
+    identifier = "twitter"
+    pre = "<img class='svg-inject' src='svg/icons/twitter.svg' />"
+    url = "https://twitter.com/milkshakesbot"
     weight = 3
 
   [[menu.main]]
-    identifier = "mastodon"
-    pre = "<span data-feather='shield'></span>"
-    url = "https://infosec.exchange/@milkshakesbot"
+    identifier = "linkedin"
+    pre = "<img class='svg-inject' src='svg/icons/linkedin.svg' />"
+    url = "https://www.linkedin.com/in/hubnerj"
     weight = 4
+
+  [[menu.main]]
+    identifier = "mastodon"
+    pre = "<img class='svg-inject' src='svg/icons/mastodon.svg' />"
+    url = "https://infosec.exchange/@milkshakesbot"
+    weight = 5
 
   [[menu.main]]
     identifier = "email"
     name = "Contact"
     url = "/contact/"
-    weight = 5
+    weight = 6
